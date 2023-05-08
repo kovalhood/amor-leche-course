@@ -68,6 +68,7 @@
     right: -40px;
     width: 220px;
     height: 220px;
+    z-index: 2;
 
     @media screen and (min-width: $tablet) {
         bottom: -30px;
@@ -87,7 +88,8 @@
 .what-you-learn-curly-line{
     position: absolute;
     bottom: -350px;
-    right: -115px;
+    right: -90px;
+    z-index: 1;
 
     @media screen and (min-width: $tablet) {
         display: none;
