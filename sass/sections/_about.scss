@@ -38,6 +38,9 @@
 
 .section__title--about{
     position: relative;
+    @media screen and (min-width: $desktop) {
+        margin-bottom: 40px;
+    }
 }
 
 .about-underline{

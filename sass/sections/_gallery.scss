@@ -1,0 +1,242 @@
+.section--gallery{
+    background-color: $white-color;
+    padding: 80px 0;
+
+    @media screen and (min-width: $tablet) {
+        padding: 110px 0;
+    }
+
+    @media screen and (min-width: $desktop) {
+        padding: 120px 0;
+    }
+}
+
+.container--gallery{
+    position: relative;
+}
+
+.gallery-desktop__wrapper{
+    display: none;
+
+    @media screen and (min-width: $desktop) {
+        display: block;
+    }
+}
+
+.gallery__item{
+    display: flex;
+    flex-direction: column;
+    margin-right: 22px;
+}
+
+.gallery--two-img{
+    display: flex;
+    margin-bottom: 22px;
+}
+
+.gallery__image--1,
+.gallery__image--2,
+.gallery__image--5,
+.gallery__image--6,
+.gallery__image--7,
+.gallery__image--8,
+.gallery__image--11,
+.gallery__image--12{
+    width: 284px;
+    height: 411px;
+}
+
+.gallery__image--3,
+.gallery__image--4,
+.gallery__image--9,
+.gallery__image--10 {
+    width: 590px;
+    height: 345px;
+    object-fit: cover;
+}
+
+.gallery__image--4,
+.gallery__image--10{
+    margin-bottom: 22px;
+}
+
+.gallery__image--1,
+.gallery__image--5,
+.gallery__image--6,
+.gallery__image--7,
+.gallery__image--11{
+    margin-right: 22px;
+}
+
+.container--gallery .slick-prev,
+.container--gallery .slick-next{
+    position: absolute;
+    top: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 46px;
+    height: 46px;
+    font-size: 0;
+    border: none;
+    border-radius: 50%;
+    background-color: $accent-color;
+    transition: $main-transition;
+    color: transparent;
+    z-index: 300;
+}
+
+.container--gallery .slick-prev{
+    right: 200px;
+    cursor: pointer;
+
+    &:hover,
+    &:focus {
+        box-shadow: $main-box-shadow;
+    }
+}
+
+.container--gallery .slick-next { 
+    right: 120px;
+    cursor: pointer;
+
+    &:hover,
+    &:focus {
+        box-shadow: $main-box-shadow;
+    }
+}
+
+.container--gallery .slick-prev:before {
+    content: "<";
+    margin-right: 3px;
+    margin-bottom: 1px;
+    color: white;
+    font-size: 30px;
+}
+
+.container--gallery .slick-next:before {
+    content: ">";
+    margin-left: 1px;
+    margin-bottom: 1px;
+    color: white;
+    font-size: 30px;
+}
+
+.gallery-mobile__wrapper {
+    @media screen and (min-width: $desktop) {
+        display: none;
+    }
+}
+
+.gallery-mob__image{
+    width: 315px;
+    margin-right: 15px;
+
+    @media screen and (min-width: $tablet) {
+        width: 508px;
+        margin-right: 25px;
+    }
+}
+
+/* Limits */
+.slick-list {
+    margin-bottom: 24px;
+
+    @media screen and (min-width: $desktop) {
+        margin-bottom: 0;
+    }
+}
+
+/* Slides */
+.slick-track {
+    display: flex;
+}
+
+.team {
+    position: relative;
+}
+
+/* Dots */
+ul.slick-dots {
+    margin: 0;
+    padding: 0;
+}
+
+.slick-dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slick-dots li {
+    list-style: none;
+    margin: 0;
+}
+
+/* Dot element */
+.container--gallery .slick-dots li button {
+    position: relative;
+    font-size: 0;
+    width: 39px;
+    height: 4px;
+    border: none;
+    background-color: rgba(245, 111, 112, 0.5);
+    cursor: pointer;
+
+    @media screen and (min-width: $tablet) {
+        width: 81px;
+    }
+
+    &::after {
+        content: '';
+        position: absolute;
+        top: -10px;
+        left: 0;
+        width: 25px;
+        height: 30px;
+    }
+}
+
+.slick-dots li:first-child button {
+    border-radius: 4px 0 0 4px;
+}
+
+.slick-dots li:last-child button {
+    border-radius: 0 4px 4px 0;
+}
+
+.container--gallery .slick-dots li.slick-active button {
+    font-size: 0;
+    width: 41px;
+    height: 4px;
+    border: none;
+    background-color: $accent-color;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    @media screen and (min-width: $tablet) {
+        width: 79px;
+    }
+}
+
+.slick-dots li button::after {
+    width: 0;
+    height: 0;
+}
+
+.gallery__highlight{
+    display: none;
+    @media screen and (min-width: $tablet) {
+        display: block;
+        position: absolute;
+        bottom: -113px;
+        left: -110px;
+        transform: rotate(-15deg);
+    }
+
+    @media screen and (min-width: $desktop) {
+        bottom: -123px;
+        left: -90px;
+        transform: rotate(-10deg);
+    }
+}
