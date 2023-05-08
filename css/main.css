@@ -55,10 +55,6 @@ address {
   margin: 0;
 }
 
-section {
-  overflow: hidden;
-}
-
 .section {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -391,6 +387,7 @@ section {
   padding-top: 86px;
   padding-bottom: 320px;
   background-color: #ffffff;
+  overflow: hidden;
 }
 @media screen and (min-width: 786px) {
   .hero {
