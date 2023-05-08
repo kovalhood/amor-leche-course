@@ -10,6 +10,7 @@
     }
 
     @media screen and (min-width: $desktop) {
+        overflow: unset;
         padding-top: 106px;
         padding-bottom: 152px;
     }

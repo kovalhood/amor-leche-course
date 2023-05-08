@@ -1,0 +1,95 @@
+.section--what-you-learn{
+    padding-top: 0;
+    padding-bottom: 306px;
+
+    @media screen and (min-width: $tablet) {
+        padding-bottom: 158px;
+    }
+
+    @media screen and (min-width: $desktop) {
+        padding-top: 60px;
+        padding-bottom: 178px;
+    }
+}
+
+.container--what-you-learn{
+    position: relative;
+}
+
+.what-you-learn__subheading{
+    display: block;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 20px;
+
+    @media screen and (min-width: $tablet) {
+        font-size: 23px;
+        line-height: 27px;
+        width: 545px;
+    }
+
+    @media screen and (min-width: $desktop) {
+        font-size: 25px;
+        line-height: 29px;
+        width: 590px;
+        margin-bottom: 30px;
+    }
+}
+
+.what-you-learn__text{
+    display: block;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 20px;
+
+    @media screen and (min-width: $tablet) {
+        font-size: 18px;
+        line-height: 21px;
+        width: 350px;
+    }
+
+    @media screen and (min-width: $desktop) {
+        font-size: 20px;
+        line-height: 23px;
+        margin-bottom: 30px;
+        width: 590px;
+    }
+
+    &--accent{
+        font-weight: 700;
+        color: $accent-color;
+    }
+}
+
+.what-you-learn__image{
+    position: absolute;
+    bottom: -220px;
+    right: -40px;
+    width: 220px;
+    height: 220px;
+
+    @media screen and (min-width: $tablet) {
+        bottom: -30px;
+        right: -110px;
+        width: 461px;
+        height: 461px;
+    }
+
+    @media screen and (min-width: $desktop) {
+        bottom: -50px;
+        right: -100px;
+        width: 645px;
+        height: 645px;
+    }
+}
+
+.what-you-learn-curly-line{
+    position: absolute;
+    bottom: -350px;
+    right: -115px;
+
+    @media screen and (min-width: $tablet) {
+        display: none;
+    }
+}

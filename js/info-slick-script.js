@@ -8,7 +8,7 @@ jQuery(function () {
         mobileFirst: true,
         responsive: [
             {
-                    breakpoint: 786,
+                    breakpoint: 785,
                     settings: 'unslick'
             }
         ],

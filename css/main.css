@@ -71,8 +71,8 @@ address {
   position: relative;
   font-family: "Montserrat";
   font-weight: 600;
-  font-size: 25px;
-  line-height: 29px;
+  font-size: 32px;
+  line-height: 39px;
   margin-bottom: 30px;
   color: #F56F70;
   z-index: 100;
@@ -80,7 +80,13 @@ address {
 @media screen and (min-width: 786px) {
   .section__title {
     font-size: 40px;
-    line-height: 47px;
+    line-height: 49px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .section__title {
+    font-size: 70px;
+    line-height: 85px;
   }
 }
 
@@ -397,6 +403,7 @@ address {
 }
 @media screen and (min-width: 1440px) {
   .hero {
+    overflow: unset;
     padding-top: 106px;
     padding-bottom: 152px;
   }
@@ -829,7 +836,7 @@ address {
 }
 @media screen and (min-width: 1440px) {
   .info-curly-line {
-    bottom: -134px;
+    bottom: -144px;
     right: 69px;
   }
 }
@@ -859,7 +866,6 @@ address {
 ul.slick-dots {
   margin: 0;
   padding: 0;
-  padding-left: 10px;
 }
 
 .slick-dots {
@@ -929,4 +935,108 @@ ul.slick-dots {
 .slick-dots li button::after {
   width: 0;
   height: 0;
+}
+
+.section--what-you-learn {
+  padding-top: 0;
+  padding-bottom: 306px;
+}
+@media screen and (min-width: 786px) {
+  .section--what-you-learn {
+    padding-bottom: 158px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .section--what-you-learn {
+    padding-top: 60px;
+    padding-bottom: 178px;
+  }
+}
+
+.container--what-you-learn {
+  position: relative;
+}
+
+.what-you-learn__subheading {
+  display: block;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 786px) {
+  .what-you-learn__subheading {
+    font-size: 23px;
+    line-height: 27px;
+    width: 545px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .what-you-learn__subheading {
+    font-size: 25px;
+    line-height: 29px;
+    width: 590px;
+    margin-bottom: 30px;
+  }
+}
+
+.what-you-learn__text {
+  display: block;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 786px) {
+  .what-you-learn__text {
+    font-size: 18px;
+    line-height: 21px;
+    width: 350px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .what-you-learn__text {
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 30px;
+    width: 590px;
+  }
+}
+.what-you-learn__text--accent {
+  font-weight: 700;
+  color: #F56F70;
+}
+
+.what-you-learn__image {
+  position: absolute;
+  bottom: -220px;
+  right: -40px;
+  width: 220px;
+  height: 220px;
+}
+@media screen and (min-width: 786px) {
+  .what-you-learn__image {
+    bottom: -30px;
+    right: -110px;
+    width: 461px;
+    height: 461px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .what-you-learn__image {
+    bottom: -50px;
+    right: -100px;
+    width: 645px;
+    height: 645px;
+  }
+}
+
+.what-you-learn-curly-line {
+  position: absolute;
+  bottom: -350px;
+  right: -115px;
+}
+@media screen and (min-width: 786px) {
+  .what-you-learn-curly-line {
+    display: none;
+  }
 }/*# sourceMappingURL=main.css.map */
