@@ -1,0 +1,274 @@
+.section--info{
+    padding-top: 80px;
+    padding-bottom: 90px;
+    overflow: hidden;
+
+    @media screen and (min-width: $tablet) {
+        padding-top: 110px;
+        padding-bottom: 110px;
+    }
+
+    @media screen and (min-width: $desktop) {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+}
+
+.info__subtitle{
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 30px;
+
+    @media screen and (min-width: $tablet) {
+        font-size: 18px;
+        line-height: 21px;
+        margin-bottom: 20px;
+    }
+
+    @media screen and (min-width: $desktop) {
+        font-size: 20px;
+        line-height: 23px;
+        margin-bottom: 30px;
+    }
+}
+
+.info {
+    position: relative;
+    margin-top: -24px;
+    z-index: 100;
+
+    @media screen and (min-width: $tablet) {
+        display: flex;
+        flex-direction: column;
+        margin-left: -24px;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+
+.info__item {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+    margin-left: 24px;
+    padding: 20px 40px 20px 40px;
+    height: 252px;
+    width: 315px;
+    border-radius: 20px;
+    background-color: $white-color;
+
+    @media screen and (min-width: $tablet) {
+        flex-basis: calc(100% / 2 - 24px);
+        padding: 20px 30px 20px 30px;
+        width: unset;
+    }
+
+    @media screen and (min-width: $desktop) {
+        flex-basis: calc(100% / 3 - 24px);
+        padding: 20px 50px 20px 50px;
+    }
+}
+
+.info__text{
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px; 
+
+    @media screen and (min-width: $tablet) {
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    @media screen and (min-width: $desktop) {
+        font-size: 20px;
+        line-height: 23px;
+    }
+}
+
+.info__text--accent{
+    color: $accent-color;
+}
+
+.info__image{
+    position: absolute;
+    bottom: 0;
+
+    &--1{
+        width: 140px;
+        height: 144px;
+        right: 10px;
+    }
+
+    &--2 {
+        width: 143px;
+        height: 136px;
+        right: 0;
+    }
+
+    &--3 {
+        width: 101px;
+        height: 118px;
+        left: 20px;
+    }
+
+    &--4 {
+        width: 122px;
+        height: 124px;
+        left: 0;
+    }
+
+    &--5 {
+        width: 127px;
+        height: 128px;
+        right: 0;
+    }
+    
+    &--6 {
+        width: 146px;
+        height: 145px;
+        right: 0;
+    }
+}
+
+.info-arrow,
+.info-arrow--mob,
+.info-curly-line{
+    position: absolute;
+}
+
+.info-arrow--mob{
+    top: 70px;
+    right: -10px;
+    width: 60px;
+    height: 60px;
+
+    @media screen and (min-width: $tablet) {
+        display: none;
+    }
+}
+
+.info-arrow {
+    display: none;
+    @media screen and (min-width: $tablet) {
+        display: block;
+        top: 80px;
+        left: 8px;
+        width: 80.12px;
+        height: 80.12px;
+    }
+
+    @media screen and (min-width: $desktop) {
+        top: 72px;
+        left: 30px;
+        width: 120.11px;
+        height: 120.11px;
+    }
+}
+
+.info-curly-line {
+    display: none;
+    z-index: 300;
+
+    @media screen and (min-width: $tablet) {
+        display: block;
+        bottom: -134px;
+        right: 19px;
+        width: 121px;
+        height: 198px;
+    }
+
+    @media screen and (min-width: $desktop) {
+        bottom: -134px;
+        right: 69px;
+    }
+}
+
+/* Limits */
+.slick-list {
+    margin-bottom: 24px;
+
+    @media screen and (min-width: $desktop) {
+        margin-bottom: 0;
+    }
+}
+
+/* Slides */
+.slick-track {
+    display: flex;
+}
+
+.team {
+    position: relative;
+}
+
+/* Dots */
+ul.slick-dots {
+    margin: 0;
+    padding: 0;
+    padding-left: 10px;
+}
+
+.slick-dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slick-dots li {
+    list-style: none;
+    margin: 0;
+}
+
+/* Dot element */
+.slick-dots li button {
+    position: relative;
+    font-size: 0;
+    width: 52px;
+    height: 4px;
+    border: none;
+    background-color: rgba(245, 111, 112, 0.5);
+    cursor: pointer;
+
+    @media screen and (min-width: $tablet) {
+        width: 215px;
+    }
+
+    &::after {
+        content: '';
+        position: absolute;
+        top: -10px;
+        left: 0;
+        width: 25px;
+        height: 30px;
+    }
+}
+
+.slick-dots li:first-child button {
+    border-radius: 4px 0 0 4px;
+}
+
+.slick-dots li:last-child button {
+    border-radius: 0 4px 4px 0;
+}
+
+.slick-dots li.slick-active button {
+    font-size: 0;
+    width: 55px;
+    height: 4px;
+    border: none;
+    // border-radius: 2px;
+    background-color: $accent-color;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    @media screen and (min-width: $tablet) {
+        width: 215px;
+    }
+}
+
+.slick-dots li button::after {
+    width: 0;
+    height: 0;
+}

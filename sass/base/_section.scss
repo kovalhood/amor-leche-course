@@ -12,12 +12,12 @@
 
 .section__title {
   position: relative;
-  font-family: 'Karla';
-  font-weight: 500;
+  font-family: 'Montserrat';
+  font-weight: 600;
   font-size: 25px;
   line-height: 29px;
   margin-bottom: 30px;
-  color: $black-color;
+  color: $accent-color;
   z-index: 100;
   
   @media screen and (min-width: $tablet) {
