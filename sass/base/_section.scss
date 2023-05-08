@@ -1,0 +1,27 @@
+.section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  overflow: hidden;
+
+  @media screen and (min-width: $desktop) {
+      padding-top: 94px;
+      padding-bottom: 94px;
+  }
+}
+
+.section__title {
+  position: relative;
+  font-family: 'Karla';
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 29px;
+  margin-bottom: 30px;
+  color: $black-color;
+  z-index: 100;
+  
+  @media screen and (min-width: $tablet) {
+    font-size: 40px;
+    line-height: 47px;
+  }
+}

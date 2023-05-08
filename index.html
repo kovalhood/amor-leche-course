@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amor&Leche</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="images/favicon/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="images/favicon/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:wght@400;500;600;700;900&family=Montserrat:wght@400;500;600;700;900&family=Roboto:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container container--header">
+        <div class="logo__container">
+          <a href="./index.html" class="logo logo--header link">
+            <svg class="logo__icon" aria-label="logo">
+              <use href="./images/icons.svg#logo"></use>
+            </svg>
+          </a>
+        </div>
+
+        <div class="menu-desktop__wrapper">
+          <ul class="menu-desktop list">
+            <li class="menu-desktop__item">
+              <a href="#program" class="menu-desktop__link link">Programa</a>
+            </li>
+            <li class="menu-desktop__item">
+              <a href="#reviews" class="menu-desktop__link link">Reseñas</a>
+            </li>
+            <li class="menu-desktop__item">
+              <a href="#courses" class="menu-desktop__link link">Cursos</a>
+            </li>
+          </ul>
+        </div>
+
+        <button class="menu-mobile__button--open js-open-menu">
+          <svg class="menu-mobile__icon" aria-label="menu-burger">
+            <use href="./images/icons.svg#menu-burger"></use>
+          </svg>
+        </button>
+
+        <div class="menu-mobile__wrapper js-menu-container">
+          <div class="menu-mobile__container">
+            <button class="menu-mobile__button--close js-close-menu">
+              <svg class="menu-mobile__icon" aria-label="menu-burger">
+                <use href="./images/icons.svg#icon-close"></use>
+              </svg>
+            </button>
+            <ul class="menu-mobile list">
+              <li class="menu-mobile__item">
+                <a href="#program" class="menu-mobile__link link">Programa</a>
+              </li>
+              <li class="menu-mobile__item">
+                <a href="#reviews" class="menu-mobile__link link">Reseñas</a>
+              </li>
+              <li class="menu-mobile__item">
+                <a href="#courses" class="menu-mobile__link link">Cursos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="container container--hero">
+          <p class="hero__bold">Curso en línea</p>
+          <h1 class="hero__title">
+            Pastelerıa en casa
+            <svg class="hero-title--symbol" aria-label="title-symbol">
+              <use href="./images/icons.svg#title-symbol"></use>
+            </svg>
+          </h1>
+          <p class="hero__text">
+            Recorre el camino desde principiante hasta profesional demandado en
+            2 meses
+          </p>
+          <h3 class="hero__subheading">
+            Inicio del curso el 23 de mayo
+            <svg class="hero-underline" aria-label="hero-line">
+              <use href="./images/icons.svg#hero-underline"></use>
+            </svg>
+          </h3>
+          <p class="hero__text hero__text--second">
+            Lecciones de video detalladas y apoyo en línea constante de
+            instructores
+          </p>
+          <button class="button__register">¡Inscríbete al curso ahora!</button>
+
+          <!-- Decorative elements -->
+          <img class="hero__image" src="./images/hero/hero.png" alt="hero" />
+          <img
+            class="hero__image--desktop"
+            src="./images/hero/hero-desktop.png"
+            alt="hero"
+          />
+          <svg class="hero-line--left" aria-label="hero-line">
+            <use href="./images/icons.svg#hero-line-left"></use>
+          </svg>
+          <svg class="hero-line--right" aria-label="hero-line">
+            <use href="./images/icons.svg#hero-line-right"></use>
+          </svg>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <h2>¿Para quiénes es este curso?</h2>
+          <p>Este curso es imprescindible para ti si:</p>
+          <ul>
+            <li>
+              <p>
+                Te gusta la repostería y
+                <span>quieres desarrollarte en ella</span>.
+              </p>
+            </li>
+            <li>
+              <p>
+                <span>Sueñas con hacer lo que amas</span> en casa en tu propia
+                cocina.
+              </p>
+            </li>
+            <li>
+              <p>
+                <span>Quieres hacer postres con amor</span> para tus seres
+                queridos.
+              </p>
+            </li>
+            <li>
+              <p>
+                <span>Estás cansado de buscar recetas en internet</span> y
+                decepcionarte con su imprecisión.
+              </p>
+            </li>
+            <li>
+              <p>
+                <span
+                  >Quieres obtener respuestas a todas tus preguntas de
+                  profesionales</span
+                >
+                de la repostería.
+              </p>
+            </li>
+            <li>
+              <p>
+                <span>Quieres hacer</span> no solo postres,
+                <span>sino obras de arte</span>.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <h2>¿Qué aprenderás?</h2>
+          <b>
+            ¿Sueñas con consentirte a ti y a tus seres queridos con postres
+            caseros? ¿O tal vez estás pensando en hornear por encargo? ¡Dar el
+            primer paso siempre es difícil!
+          </b>
+          <p>
+            Para comprender todos los detalles y matices, te invito a mi curso
+            exclusivo <span>"Pasteleria en casa"</span>, donde recorrerás el
+            camino desde el conocimiento básico de la repostería hasta las
+            habilidades de horneado y montaje de tortas de varios niveles.
+          </p>
+          <p>
+            La singularidad del curso radica en que,
+            <span
+              >además de las detalladas clases prácticas, también hay un bloque
+              separado de teoría</span
+            >
+            sobre los conocimientos fundamentales de la repostería.
+          </p>
+          <b
+            >Bajo la guía de experimentados curadores y yo personalmente,
+            dominarás <span>más de 25 postres!</span></b
+          >
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <h2>Fundadora de la escuela Verónika de Amor y Leche</h2>
+          <ul>
+            <li>
+              <p>Convirtió los pasteles en su profesión</p>
+            </li>
+            <li>
+              <p>Abre su propia cafetería en Concón</p>
+            </li>
+            <li>
+              <p>Pastelera con experiencia internacional</p>
+            </li>
+            <li>
+              <p>Madre de su hija Luba</p>
+            </li>
+            <li>
+              <p>Creadora del programa de mentoría personalizada</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section section--deserts">
+        <div class="container container--deserts">
+          <h2>Los postres de Verónika</h2>
+          <div class="deserts-desktop__wrapper"></div>
+          <div class="deserts-mobile__wrapper"></div>
+        </div>
+      </section>
+
+      <section id="program" class="section">
+        <div class="container">
+          <h2>Programa del curso</h2>
+          <ul>
+            <li>
+              <p>
+                <span>8 semanas con soporte curatorial</span> en un grupo de
+                Facebook
+              </p>
+            </li>
+            <li>
+              <p>
+                7 lecciones
+                <span>con verificación de tareas y retroalimentación</span>
+              </p>
+            </li>
+            <li>
+              <p>acceso de <span>por vida a los materiales del curso</span></p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container"></div>
+      </section>
+
+      <section id="reviews" class="section section--students">
+        <div class="container container--students">
+          <h2>Mira los postres que logran preparar nuestros estudiantes</h2>
+          <div class="students-desktop__wrapper"></div>
+          <div class="students-mobile__wrapper"></div>
+        </div>
+      </section>
+
+      <section id="courses" class="section">
+        <div class="container">
+          <h2>¡Inscríbete en el curso ahora mismo!</h2>
+          <ul>
+            <li>
+              <h3>Pasteleria en casa PRO</h3>
+              <b>7 clases</b>
+              <ul>
+                <li>
+                  <p>clase 1. Cupcakes</p>
+                </li>
+                <li>
+                  <p>clase 2. Torta</p>
+                </li>
+                <li>
+                  <p>clase 3. Macarons</p>
+                </li>
+                <li>
+                  <p>clase 4. Cheesecake</p>
+                </li>
+                <li>
+                  <p>clase 5. Tortas mousse</p>
+                </li>
+                <li>
+                  <p>clase 6. Mini postres</p>
+                </li>
+                <li>
+                  <p>clase 7. Pastel de dos pisos</p>
+                </li>
+              </ul>
+              <b>Qué incluye este curso:</b>
+              <ul>
+                <li>
+                  <p>
+                    1. <span>Recetas de postres</span> y secretos de los tutores
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    2. <span>Demostraciones en video</span> de todos los pasos
+                    de la preparación
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    3. <span>Acceso de por vida</span> a los materiales del
+                    curso
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    4. <span>Demostraciones en video</span> de todos los postres
+                  </p>
+                </li>
+                <li>
+                  <p>5. <span>Chat privado</span> con los tutores</p>
+                </li>
+                <li>
+                  <p>
+                    6. Revisión <span>de todas las tareas</span> y
+                    retroalimentación de los profesores
+                  </p>
+                </li>
+              </ul>
+              <b>Paga ahora para recibir un regalo:</b>
+              <ul>
+                <li>
+                  <p>
+                    Un libro y una guía detallada sobre cómo preparar lava cake.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Además de una clase gratuita de un postre muy delicado
+                    llamado "Pavlova".
+                  </p>
+                </li>
+              </ul>
+              <div>
+                <p>Precio:</p>
+                <p>$183.000 clp</p>
+                <p>$250.000 clp</p>
+              </div>
+              <button>¡Inscríbete al curso ahora!</button>
+            </li>
+
+            <li>
+              <h3>Pasteleria en casa MINI</h3>
+              <b>5 clases</b>
+              <ul>
+                <li>
+                  <p>clase 1. Cupcakes</p>
+                </li>
+                <li>
+                  <p>clase 2. Torta</p>
+                </li>
+                <li>
+                  <p>clase 3. Macarons</p>
+                </li>
+                <li>
+                  <p>clase 4. Cheesecake</p>
+                </li>
+                <li>
+                  <p>clase 5. Tortas mousse</p>
+                </li>
+                <li>
+                  <p>clase 6. Mini postres</p>
+                </li>
+                <li>
+                  <p>clase 7. Pastel de dos pisos</p>
+                </li>
+              </ul>
+              <b>Qué incluye este curso:</b>
+              <ul>
+                <li>
+                  <p>
+                    1. <span>Recetas de postres</span> y secretos de los tutores
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    2. <span>Demostraciones en video</span> de todos los pasos
+                    de la preparación
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    3. <span>Acceso de por vida</span> a los materiales del
+                    curso
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    4. <span>Demostraciones en video</span> de todos los postres
+                  </p>
+                </li>
+                <li>
+                  <p>5. <span>Chat privado</span> con los tutores</p>
+                </li>
+                <li>
+                  <p>
+                    6. Revisión <span>de todas las tareas</span> y
+                    retroalimentación de los profesores
+                  </p>
+                </li>
+              </ul>
+              <b>Paga ahora para recibir un regalo:</b>
+              <ul>
+                <li>
+                  <p>
+                    Un libro y una guía detallada sobre cómo preparar lava cake.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Además de una clase gratuita de un postre muy delicado
+                    llamado "Pavlova".
+                  </p>
+                </li>
+              </ul>
+              <div>
+                <p>Precio:</p>
+                <p>$137.000 clp</p>
+                <p>$200.000 clp</p>
+              </div>
+              <button>¡Inscríbete al curso ahora!</button>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <p>
+            ¡Atención! ¡El tiempo de descuento es limitado! Los descuentos se
+            aplican al registrarse en el curso hasta el 15 de mayo.
+          </p>
+          <h3>Еl precio subirá en</h3>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <h2>Respuestas a preguntas frecuentes</h2>
+          <ul>
+            <li>
+              <h3>¿En qué es mejor que las lecciones de YouTube?</h3>
+              <p>
+                En YouTube nadie vendrá a ayudarte en momentos difíciles y no te
+                dirá qué hacer si la masa es demasiado espesa. En el curso,
+                tendrás un tutor justo al lado tuyo, hombro a hombro, mientras
+                preparas el postre. Te ayudará, guiará, apoyará y tranquilizará.
+              </p>
+              <p>
+                No tendrás que elegir entre un millón de opciones: hemos
+                seleccionado para ti las recetas más populares, las hemos
+                probado por nuestra cuenta y las hemos trabajado a fondo.
+              </p>
+            </li>
+            <li>
+              <h3>¿En qué es mejor que las lecciones de YouTube?</h3>
+              <p>
+                En YouTube nadie vendrá a ayudarte en momentos difíciles y no te
+                dirá qué hacer si la masa es demasiado espesa. En el curso,
+                tendrás un tutor justo al lado tuyo, hombro a hombro, mientras
+                preparas el postre. Te ayudará, guiará, apoyará y tranquilizará.
+              </p>
+              <p>
+                No tendrás que elegir entre un millón de opciones: hemos
+                seleccionado para ti las recetas más populares, las hemos
+                probado por nuestra cuenta y las hemos trabajado a fondo.
+              </p>
+            </li>
+            <li>
+              <h3>¿En qué es mejor que las lecciones de YouTube?</h3>
+              <p>
+                En YouTube nadie vendrá a ayudarte en momentos difíciles y no te
+                dirá qué hacer si la masa es demasiado espesa. En el curso,
+                tendrás un tutor justo al lado tuyo, hombro a hombro, mientras
+                preparas el postre. Te ayudará, guiará, apoyará y tranquilizará.
+              </p>
+              <p>
+                No tendrás que elegir entre un millón de opciones: hemos
+                seleccionado para ti las recetas más populares, las hemos
+                probado por nuestra cuenta y las hemos trabajado a fondo.
+              </p>
+            </li>
+            <li>
+              <h3>¿En qué es mejor que las lecciones de YouTube?</h3>
+              <p>
+                En YouTube nadie vendrá a ayudarte en momentos difíciles y no te
+                dirá qué hacer si la masa es demasiado espesa. En el curso,
+                tendrás un tutor justo al lado tuyo, hombro a hombro, mientras
+                preparas el postre. Te ayudará, guiará, apoyará y tranquilizará.
+              </p>
+              <p>
+                No tendrás que elegir entre un millón de opciones: hemos
+                seleccionado para ti las recetas más populares, las hemos
+                probado por nuestra cuenta y las hemos trabajado a fondo.
+              </p>
+            </li>
+            <li>
+              <h3>¿En qué es mejor que las lecciones de YouTube?</h3>
+              <p>
+                En YouTube nadie vendrá a ayudarte en momentos difíciles y no te
+                dirá qué hacer si la masa es demasiado espesa. En el curso,
+                tendrás un tutor justo al lado tuyo, hombro a hombro, mientras
+                preparas el postre. Te ayudará, guiará, apoyará y tranquilizará.
+              </p>
+              <p>
+                No tendrás que elegir entre un millón de opciones: hemos
+                seleccionado para ti las recetas más populares, las hemos
+                probado por nuestra cuenta y las hemos trabajado a fondo.
+              </p>
+            </li>
+            <li>
+              <h3>¿En qué es mejor que las lecciones de YouTube?</h3>
+              <p>
+                En YouTube nadie vendrá a ayudarte en momentos difíciles y no te
+                dirá qué hacer si la masa es demasiado espesa. En el curso,
+                tendrás un tutor justo al lado tuyo, hombro a hombro, mientras
+                preparas el postre. Te ayudará, guiará, apoyará y tranquilizará.
+              </p>
+              <p>
+                No tendrás que elegir entre un millón de opciones: hemos
+                seleccionado para ti las recetas más populares, las hemos
+                probado por nuestra cuenta y las hemos trabajado a fondo.
+              </p>
+            </li>
+            <li>
+              <h3>¿En qué es mejor que las lecciones de YouTube?</h3>
+              <p>
+                En YouTube nadie vendrá a ayudarte en momentos difíciles y no te
+                dirá qué hacer si la masa es demasiado espesa. En el curso,
+                tendrás un tutor justo al lado tuyo, hombro a hombro, mientras
+                preparas el postre. Te ayudará, guiará, apoyará y tranquilizará.
+              </p>
+              <p>
+                No tendrás que elegir entre un millón de opciones: hemos
+                seleccionado para ti las recetas más populares, las hemos
+                probado por nuestra cuenta y las hemos trabajado a fondo.
+              </p>
+            </li>
+            <li>
+              <h3>¿En qué es mejor que las lecciones de YouTube?</h3>
+              <p>
+                En YouTube nadie vendrá a ayudarte en momentos difíciles y no te
+                dirá qué hacer si la masa es demasiado espesa. En el curso,
+                tendrás un tutor justo al lado tuyo, hombro a hombro, mientras
+                preparas el postre. Te ayudará, guiará, apoyará y tranquilizará.
+              </p>
+              <p>
+                No tendrás que elegir entre un millón de opciones: hemos
+                seleccionado para ti las recetas más populares, las hemos
+                probado por nuestra cuenta y las hemos trabajado a fondo.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <h2>¿Tienes alguna pregunta más? ¡Escríbeme!</h2>
+          <button>Envíame un mensaje de WhatsApp</button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container container--footer">
+        <div class="logo__wrapper--footer">
+          <a href="./index.html" class="logo link">
+            <svg class="logo__icon" aria-label="logo">
+              <use href="./images/icons.svg#logo"></use>
+            </svg>
+          </a>
+        </div>
+        <div class="menu__footer">
+          <ul>
+            <li>
+              <p>Programa</p>
+            </li>
+            <li><p>Reseñas</p></li>
+            <li><p>Cursos</p></li>
+          </ul>
+        </div>
+        <p class="footer__copyright">© ALL RIGHTS RESERVED</p>
+      </div>
+    </footer>
+
+    <!-- Typeform script -->
+    <!-- <script src="//embed.typeform.com/next/embed.js"></script> -->
+
+    <!-- Mobile menu -->
+    <script src="./js/mobile-menu.js"></script>
+
+    <!-- Slick slider scrypt -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="./js/slick-script.js"></script>
+  </body>
+</html>

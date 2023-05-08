@@ -1,0 +1,14 @@
+.logo__icon {
+  width: 79.08px;
+  height: 56px;
+
+  @media screen and (min-width: $tablet) {
+    width: 91.79px;
+    height: 65px;
+  }
+  
+  @media screen and (min-width: $desktop) {
+    width: 119px;
+    height: 84.27px;
+  }
+}

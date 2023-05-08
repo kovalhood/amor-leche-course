@@ -1,0 +1,56 @@
+.header{
+    background-color: $white-color;
+}
+
+.container--header{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+
+    @media screen and (min-width: $desktop) {
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+}
+
+.logo__container{
+    display: flex;
+    justify-content: center;
+    margin-top: -3px;
+    padding-top: 12px;
+    width: 115.46px;
+    height: 95.55px;
+    background-color: $accent-color;
+    border-radius: 0 0 50% 50%;
+    z-index: 1000;
+
+    @media screen and (min-width: $tablet) {
+        margin-top: 0;
+        padding-top: 13px;
+        width: 124.46px;
+        height: 103px;
+    }
+    
+    @media screen and (min-width: $desktop) {
+        padding-top: 15px;
+        width: 145px;
+        height: 120px;
+    }
+}
+
+.logo__icon{
+    fill: $white-color;
+    width: 85.3px;
+    height: 56.14px;
+
+    @media screen and (min-width: $tablet) {
+        width: 91.95px;
+        height: 60.52px;
+        }
+    
+    @media screen and (min-width: $desktop) {
+        width: 107.12px;
+        height: 70.51px;
+    }
+}

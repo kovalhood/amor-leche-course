@@ -1,0 +1,29 @@
+.menu-desktop__wrapper {
+    display: none;
+    
+    @media screen and (min-width: $desktop) {
+        display: block;
+    }
+}
+
+.menu-desktop{
+    display: flex;
+    margin-left: 90px;
+}
+
+.menu-desktop__item{
+    &:not(:last-child){
+        margin-right: 30px;
+    }
+}
+
+.menu-desktop__link{
+    padding: 20px 0;
+    cursor: pointer;
+    transition: $main-transition;
+
+    &:hover,
+    &:focus{
+        color: $accent-color;
+    }
+}
