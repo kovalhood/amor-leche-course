@@ -1,0 +1,448 @@
+.section--courses {
+    position: relative;
+    background-color: $white-color;
+    padding: 0;
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 1100px;
+        background-color: #f2f2f2;
+
+        @media screen and (min-width: $tablet) {
+            height: 990px;
+        }
+
+        @media screen and (min-width: $desktop) {
+            height: 760px;
+        }
+    }
+}
+
+.container--courses{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section__title--courses{
+    text-align: center;
+    
+    @media screen and (min-width: $tablet) {
+        padding-bottom: 60px;
+    }
+
+    @media screen and (min-width: $desktop) {
+        width: 850px;
+        padding-bottom: 30px;
+    }
+}
+
+.courses__wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFE7DB;
+    border-radius: 40px;
+    width: 375px;
+    padding: 80px 30px;
+
+    @media screen and (min-width: $tablet) {
+        width: 100%;
+        padding: 90px 30px;
+    }
+
+    @media screen and (min-width: $desktop) {
+        padding: 90px 39px;
+    }
+}
+
+.courses{
+    display: flex;
+    flex-direction: column;
+
+    @media screen and (min-width: $desktop) {
+        flex-direction: row;
+    }
+}
+
+.courses__best-offer{
+    position: absolute;
+    top: -20px;
+    left: 146px;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 211px;
+    height: 39px;
+    background-color: #F56F70;
+    color: $white-color;
+    border-radius: 20px;
+    transform: rotate(4.54deg);
+
+    @media screen and (min-width: $tablet) {
+        font-size: 18px;
+        line-height: 21px;
+        width: 231px;
+        height: 41px;
+        left: -16px;
+        transform: rotate(-6.03deg);
+    }
+    
+    @media screen and (min-width: $desktop) {
+        font-size: 20px;
+        line-height: 23px;
+        width: 251px;
+        height: 43px;
+        left: -20px;
+    }
+}
+
+.courses__item{
+    position: relative;
+    background-color: $white-color;
+    padding: 30px 20px;
+    border-radius: 20px;
+
+    @media screen and (min-width: $desktop) {
+        padding: 30px 30px;
+    }
+
+    @media screen and (min-width: $desktop) {
+        padding: 40px 40px;
+    }
+    
+    &:not(:last-child){
+        margin-bottom: 30px;
+        @media screen and (min-width: $desktop) {
+            margin-bottom: 0;
+            margin-right: 20px;
+        }
+    }
+}
+
+.courses__title{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: $accent-color;
+    margin-bottom: 20px;
+
+    @media screen and (min-width: $tablet) {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    @media screen and (min-width: $desktop) {
+        font-size: 30px;
+        line-height: 37px;
+    }
+}
+
+.courses__subheading{
+    display: block;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 10px;
+
+    @media screen and (min-width: $tablet) {
+        font-size: 23px;
+        line-height: 27px;
+    }
+}
+
+.courses-program{
+    margin-bottom: 20px;
+
+    @media screen and (min-width: $tablet) {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 158px;
+        margin-bottom: 0;
+    }
+
+    @media screen and (min-width: $desktop) {
+        height: unset;
+        margin-bottom: 20px;
+    }
+}
+
+.courses-program__item{
+    display: flex;
+    align-items: center;
+
+    &:not(:last-child){
+        margin-bottom: 15px;
+    }
+}
+
+.courses-program__text{
+    font-size: 16px;
+    line-height: 19px;
+
+    @media screen and (min-width: $tablet) {
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    @media screen and (min-width: $desktop) {
+        font-size: 20px;
+        line-height: 23px;
+    }
+
+    &--crossed{
+        text-decoration: line-through;
+    }
+}
+
+.courses-description{
+    margin-bottom: 20px;
+}
+
+.courses-description__item{
+    &:not(:last-child){
+        margin-bottom: 10px;
+    }
+}
+
+.courses-description__text {
+    font-size: 16px;
+    line-height: 19px;
+
+    @media screen and (min-width: $tablet) {
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    @media screen and (min-width: $desktop) {
+        font-size: 20px;
+        line-height: 23px;
+    }
+
+    &--accent{
+        font-weight: 700;
+    }
+}
+
+.courses-gift{
+    margin-bottom: 50px;
+
+    @media screen and (min-width: $tablet) {
+        margin-bottom: 30px;
+    }
+
+    @media screen and (min-width: $desktop) {
+        margin-bottom: 44px;
+    }
+}
+
+.courses-gift__item{
+    display: flex;
+    align-items: center;
+
+    &:not(:last-child){
+        margin-bottom: 15px;
+    }
+}
+
+.courses-gift__text {
+    font-size: 16px;
+    line-height: 19px;
+
+    @media screen and (min-width: $tablet) {
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    @media screen and (min-width: $desktop) {
+        font-size: 20px;
+        line-height: 23px;
+    }
+
+    &--1{
+        width: 260px;
+
+        @media screen and (min-width: $tablet) {
+            width: 310px;
+        }
+    }
+
+    &--2 {
+        width: 170px;
+
+        @media screen and (min-width: $tablet) {
+            width: 285px;
+        }
+    }
+}
+
+.price{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    
+    @media screen and (min-width: $tablet) {
+        flex-direction: row;
+        align-items: flex-end;
+    }
+}
+
+.price__text{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: $accent-color;
+    margin-bottom: 10px;
+
+    @media screen and (min-width: $tablet) {
+        margin-bottom: 0;
+        margin-right: 15px;
+        font-size: 20px;
+        line-height: 23px;
+    }
+
+    @media screen and (min-width: $desktop) {
+        font-size: 23px;
+        line-height: 27px;
+    }
+}
+
+.price__wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.price--new{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: $accent-color;
+    margin-right: 10px;
+
+    @media screen and (min-width: $tablet) {
+        font-size: 23px;
+        line-height: 28px;
+        margin-right: 15px;
+    }
+
+    @media screen and (min-width: $desktop) {
+        font-size: 25px;
+        line-height: 30px;
+        margin-right: 10px;
+    }
+}
+
+.price--old {
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: line-through;
+
+    @media screen and (min-width: $tablet) {
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    @media screen and (min-width: $desktop) {
+        font-size: 20px;
+        line-height: 23px;
+    }
+}
+
+.button__register--courses {
+    margin-left: auto;
+    margin-right: auto;
+    width: 310px;
+}
+
+.courses__book{
+    position: absolute;
+    bottom: 160px;
+    right: 0;
+    width: 96.5px;
+    height: 136.29px;
+
+    @media screen and (min-width: $tablet) {
+        width: 126.38px;
+        height: 178.49px;
+    }
+
+    @media screen and (min-width: $desktop) {
+        bottom: 180px;
+        width: 126.38px;
+        height: 178.49px;
+    }
+}
+
+.courses__video {
+    position: absolute;
+    width: 113px;
+    height: 78.73px;
+    right: 30px;
+    bottom: 144px;
+    border-radius: 10px;
+    object-fit: cover;
+    z-index: 5;
+
+    @media screen and (min-width: $tablet) {
+        right: 60px;
+        width: 139px;
+        height: 96.84px;
+    }
+
+    @media screen and (min-width: $desktop) {
+        right: 35px;
+        bottom: 160px;
+        width: 145px;
+        height: 101.02px;
+    }
+}
+
+.courses__arrow{
+    display: none;
+
+    @media screen and (min-width: $tablet) {
+        display: block;
+        position: absolute;
+        bottom: 54px;
+        right: 50px;
+
+        width: 71.33px;
+        height: 71.33px;
+    }
+
+    @media screen and (min-width: $desktop) {
+        bottom: 65px;
+        right: 40px;
+    }
+}
+
+.courses__highlight {
+    display: none;
+
+    @media screen and (min-width: $tablet) {
+        display: block;
+        position: absolute;
+        bottom: 1030px;
+        left: -83px;
+
+        width: 210px;
+        height: 210px;
+    }
+
+    @media screen and (min-width: $desktop) {
+        bottom: 580px;
+        left: -33px;
+    }
+}
