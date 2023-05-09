@@ -78,11 +78,11 @@
     width: 46px;
     height: 46px;
     font-size: 0;
-    border: none;
+    border: 2px solid $accent-color;
     border-radius: 50%;
     background-color: $accent-color;
     transition: $main-transition;
-    color: transparent;
+    color: $white-color;
     z-index: 300;
 }
 
@@ -90,9 +90,9 @@
     right: 200px;
     cursor: pointer;
 
-    &:hover,
-    &:focus {
-        box-shadow: $main-box-shadow;
+    &:hover {
+        background-color: transparent;
+        color: $accent-color;
     }
 }
 
@@ -100,9 +100,9 @@
     right: 120px;
     cursor: pointer;
 
-    &:hover,
-    &:focus {
-        box-shadow: $main-box-shadow;
+    &:hover {
+        background-color: transparent;
+        color: $accent-color;
     }
 }
 
@@ -110,7 +110,7 @@
     content: "<";
     margin-right: 3px;
     margin-bottom: 1px;
-    color: white;
+    color: inherit;
     font-size: 30px;
 }
 
@@ -118,7 +118,7 @@
     content: ">";
     margin-left: 1px;
     margin-bottom: 1px;
-    color: white;
+    color: inherit;
     font-size: 30px;
 }
 
