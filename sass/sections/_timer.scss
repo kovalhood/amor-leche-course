@@ -1,0 +1,140 @@
+.section--timer{
+    background-color: $white-color;
+    padding-top: 50px;
+    padding-bottom: 0;
+}
+
+.timer__wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFE7DB;
+    border-radius: 40px;
+    padding: 40px 25px;
+
+    @media screen and (min-width: $tablet) {
+        padding: 40px 40px;
+    }
+}
+
+.timer__subheading{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    margin-bottom: 20px;
+
+    @media screen and (min-width: $tablet) {
+        font-size: 23px;
+        line-height: 27px;
+        margin-bottom: 30px;
+    }
+
+    @media screen and (min-width: $desktop) {
+        font-size: 25px;
+        line-height: 29px;
+        width: 800px;
+        margin-bottom: 40px;
+    }
+}
+
+.timer__heading{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    margin-bottom: 20px;
+
+    @media screen and (min-width: $tablet) {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    @media screen and (min-width: $desktop) {
+        font-size: 40px;
+        line-height: 47px
+    }
+}
+
+.container--timer .timer{
+    display: flex;
+}
+
+.container--timer .numbers{
+    display: flex;
+}
+
+.container--timer .field{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    &:not(:last-child){
+        margin-right: 15px;
+
+        @media screen and (min-width: $tablet) {
+            margin-right: 30px;
+        }
+    
+        @media screen and (min-width: $desktop) {
+            margin-right: 40px;
+        }
+    }
+}
+
+.container--timer .value{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: $accent-color;
+
+    padding: 4.75089px 5.70107px;
+
+    width: 27px;
+    height: 33px;
+    background: $white-color;
+    border: 0.475089px solid $accent-color;
+    border-radius: 2.85053px;
+
+    @media screen and (min-width: $tablet) {
+        font-size: 50px;
+        line-height: 58px;
+
+        padding: 10px 12px;
+        width: 56px;
+        height: 78px;
+        border: 1px solid $accent-color;
+        border-radius: 6px;
+    }
+
+    @media screen and (min-width: $desktop) {
+        font-size: 50px;
+        line-height: 58px;
+    }
+
+    &:not(:last-child){
+        margin-right: 5px;
+    }
+}
+
+.container--timer .label{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    margin-top: 10px;
+
+    @media screen and (min-width: $tablet) {
+        font-size: 23px;
+        line-height: 27px;
+    }
+
+    @media screen and (min-width: $desktop) {
+        font-size: 23px;
+        line-height: 27px;
+    }
+}

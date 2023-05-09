@@ -1447,13 +1447,46 @@
         </div>
       </section>
 
-      <section class="section">
-        <div class="container">
-          <p>
-            ¡Atención! ¡El tiempo de descuento es limitado! Los descuentos se
-            aplican al registrarse en el curso hasta el 15 de mayo.
-          </p>
-          <h3>Еl precio subirá en</h3>
+      <section class="section section--timer">
+        <div class="container container--timer">
+          <div class="timer__wrapper">
+            <p class="timer__subheading">
+              ¡Atención! ¡El tiempo de descuento es limitado! Los descuentos se
+              aplican al registrarse en el curso hasta el 15 de mayo.
+            </p>
+            <h3 class="timer__heading">Еl precio subirá en</h3>
+
+            <div class="timer">
+              <div class="field">
+                <div class="numbers">
+                  <span class="value" data-days-1>0</span>
+                  <span class="value" data-days-2>0</span>
+                </div>
+                <span class="label">Días</span>
+              </div>
+              <div class="field">
+                <div class="numbers">
+                  <span class="value" data-hours-1>0</span>
+                  <span class="value" data-hours-2>0</span>
+                </div>
+                <span class="label">Horas</span>
+              </div>
+              <div class="field">
+                <div class="numbers">
+                  <span class="value" data-minutes-1>0</span>
+                  <span class="value" data-minutes-2>0</span>
+                </div>
+                <span class="label">Minutos</span>
+              </div>
+              <div class="field">
+                <div class="numbers">
+                  <span class="value" data-seconds-1>0</span>
+                  <span class="value" data-seconds-2>0</span>
+                </div>
+                <span class="label">Segundos</span>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -1612,6 +1645,9 @@
 
     <!-- Mobile menu -->
     <script src="./js/mobile-menu.js"></script>
+
+    <!-- Countdown timer -->
+    <script src="./js/timer.js"></script>
 
     <!-- Slick slider scrypt -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
