@@ -1,0 +1,120 @@
+.section--faq{
+    background-color: $white-color;
+    padding: 80px 0 60px 0;
+    
+    @media screen and (min-width: $tablet) {
+        padding: 110px 0 75px 0;
+    }
+
+    @media screen and (min-width: $desktop) {
+        padding: 120px 0 80px 0;
+    }
+}
+
+.faq{
+    margin-top: -20px;
+}
+
+.faq-question{
+    position: relative;
+    padding: 20px 0 20px 50px;
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+
+    border-bottom: 2px solid #F56F70;
+
+    @media screen and (min-width: $tablet) {
+        font-size: 23px;
+        line-height: 27px;
+        padding: 30px 0 30px 80px;
+    }
+
+    @media screen and (min-width: $tablet) {
+        padding: 40px 0 40px 80px;
+    }
+}
+
+.faq-question.open{
+    position: relative;
+    padding: 20px 0 20px 50px;
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+
+    border: none;
+
+    @media screen and (min-width: $tablet) {
+        font-size: 23px;
+        line-height: 27px;
+        padding: 30px 0 30px 80px;
+    }
+
+    @media screen and (min-width: $tablet) {
+        padding: 40px 0 40px 80px;
+    }
+}
+
+.faq-question:after {
+    position: absolute;
+    left: 0;
+    top: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background-color: $accent-color;
+    color: $white-color;
+    content: "?";
+
+    @media screen and (min-width: $tablet) {
+        width: 58px;
+        height: 58px;
+        font-size: 30px;
+        top: 16px;
+    }
+
+    @media screen and (min-width: $tablet) {
+        width: 58px;
+        height: 58px;
+        font-size: 30px;
+        top: 24px;
+    }
+}
+
+.faq-question.open:after {
+    position: absolute;
+    left: 0;
+    background-color: rgba(245, 111, 112, 0.3);
+    color: $accent-color;
+    content: "¿";
+}
+
+.faq-answer {
+    padding: 0 0 20px 50px;
+    border-bottom: 2px solid #F56F70;
+
+    font-size: 16px;
+    line-height: 19px;
+
+    @media screen and (min-width: $tablet) {
+        font-size: 18px;
+        line-height: 21px;
+        padding: 0 0 20px 80px;
+        margin-top: -20px;
+    }
+
+    @media screen and (min-width: $desktop) {
+        font-size: 20px;
+        line-height: 23px;
+    }
+}
+
+// Class used instead of hidden attribute to allow for styling
+.hidden {
+    display: none;
+}
