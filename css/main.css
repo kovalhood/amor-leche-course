@@ -443,6 +443,7 @@ address {
   line-height: 39px;
   color: #F56F70;
   margin-bottom: 10px;
+  z-index: 100;
 }
 @media screen and (min-width: 786px) {
   .hero__title {
@@ -453,7 +454,7 @@ address {
 }
 @media screen and (min-width: 1280px) {
   .hero__title {
-    font-size: 90px;
+    font-size: 70px;
     line-height: 110px;
     margin-bottom: 20px;
   }
@@ -543,7 +544,7 @@ address {
     width: 696px;
     height: 850px;
     bottom: -152px;
-    right: 0;
+    right: -90px;
     display: block;
   }
 }
@@ -633,6 +634,10 @@ address {
     width: 32px;
     height: 33px;
   }
+}
+
+.button__link {
+  width: 320px;
 }
 
 .section--info {
@@ -818,7 +823,7 @@ address {
 @media screen and (min-width: 1280px) {
   .info-arrow {
     top: 72px;
-    left: 30px;
+    left: -60px;
     width: 120.11px;
     height: 120.11px;
   }
@@ -840,7 +845,7 @@ address {
 @media screen and (min-width: 1280px) {
   .info-curly-line {
     bottom: -144px;
-    right: 69px;
+    right: -11px;
   }
 }
 
@@ -1009,7 +1014,7 @@ ul.slick-dots {
   color: #F56F70;
 }
 
-.what-you-learn__image {
+.what-you-learn__images {
   position: absolute;
   bottom: -220px;
   right: -40px;
@@ -1018,7 +1023,7 @@ ul.slick-dots {
   z-index: 2;
 }
 @media screen and (min-width: 786px) {
-  .what-you-learn__image {
+  .what-you-learn__images {
     bottom: -30px;
     right: -110px;
     width: 461px;
@@ -1026,7 +1031,7 @@ ul.slick-dots {
   }
 }
 @media screen and (min-width: 1280px) {
-  .what-you-learn__image {
+  .what-you-learn__images {
     bottom: -50px;
     right: -100px;
     width: 645px;
@@ -1057,7 +1062,7 @@ ul.slick-dots {
   top: 0;
   width: 100%;
   height: 370px;
-  background-color: #f2f2f2;
+  background-color: #F2F2F2;
 }
 @media screen and (min-width: 786px) {
   .section--about::before {
@@ -1274,7 +1279,6 @@ ul.slick-dots {
 
 .gallery__image--1,
 .gallery__image--5,
-.gallery__image--6,
 .gallery__image--7,
 .gallery__image--11 {
   margin-right: 22px;
@@ -1306,7 +1310,7 @@ ul.slick-dots {
 }
 
 .container--gallery .slick-prev {
-  right: 200px;
+  right: 120px;
   cursor: pointer;
 }
 .container--gallery .slick-prev:hover {
@@ -1315,7 +1319,7 @@ ul.slick-dots {
 }
 
 .container--gallery .slick-next {
-  right: 120px;
+  right: 40px;
   cursor: pointer;
 }
 .container--gallery .slick-next:hover {
@@ -1676,6 +1680,19 @@ ul.slick-dots {
   }
 }
 
+.lessons__image {
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+  height: 248px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+@media screen and (min-width: 786px) {
+  .lessons__image {
+    height: 348px;
+  }
+}
+
 .lessons__info {
   padding: 20px;
 }
@@ -1776,7 +1793,7 @@ ul.slick-dots {
 @media screen and (min-width: 1280px) {
   .lessons__arrow {
     bottom: -10px;
-    left: 330px;
+    left: 236px;
     width: 145.28px;
     height: 99.07px;
     -webkit-transform: rotate(-5deg);
@@ -1810,7 +1827,7 @@ ul.slick-dots {
 }
 
 .container--lessons .slick-prev {
-  left: 120px;
+  left: 44px;
   cursor: pointer;
 }
 .container--lessons .slick-prev:hover {
@@ -1819,7 +1836,7 @@ ul.slick-dots {
 }
 
 .container--lessons .slick-next {
-  left: 200px;
+  left: 124px;
   cursor: pointer;
 }
 .container--lessons .slick-next:hover {
@@ -2136,7 +2153,7 @@ ul.slick-dots {
 @media screen and (min-width: 1280px) {
   .reviews__circle {
     bottom: -40px;
-    left: 20px;
+    left: -60px;
     width: 197px;
     height: 166px;
   }
@@ -2153,7 +2170,7 @@ ul.slick-dots {
   top: 0;
   width: 100%;
   height: 1100px;
-  background-color: #f2f2f2;
+  background-color: #F2F2F2;
 }
 @media screen and (min-width: 786px) {
   .section--courses::before {
@@ -2675,7 +2692,7 @@ ul.slick-dots {
 @media screen and (min-width: 1280px) {
   .courses__highlight {
     bottom: 580px;
-    left: -33px;
+    left: -113px;
   }
 }
 
@@ -2977,6 +2994,20 @@ ul.slick-dots {
     font-size: 20px;
     line-height: 23px;
   }
+}
+
+.faq-answer ul {
+  padding-left: 16px;
+  list-style: none;
+}
+
+.faq-answer ul li::before {
+  content: "•";
+  color: #F56F70;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -0.8em;
 }
 
 .hidden {

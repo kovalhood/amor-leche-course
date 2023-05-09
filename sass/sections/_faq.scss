@@ -117,6 +117,20 @@
     }
 }
 
+.faq-answer ul{
+    padding-left: 16px;
+    list-style: none;
+}
+
+.faq-answer ul li::before {
+    content: "\2022";
+    color: $accent-color;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -0.8em;
+}
+
 // Class used instead of hidden attribute to allow for styling
 .hidden {
     display: none;

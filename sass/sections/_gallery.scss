@@ -62,7 +62,6 @@
 
 .gallery__image--1,
 .gallery__image--5,
-.gallery__image--6,
 .gallery__image--7,
 .gallery__image--11{
     margin-right: 22px;
@@ -87,7 +86,7 @@
 }
 
 .container--gallery .slick-prev{
-    right: 200px;
+    right: 120px;
     cursor: pointer;
 
     &:hover {
@@ -97,7 +96,7 @@
 }
 
 .container--gallery .slick-next { 
-    right: 120px;
+    right: 40px;
     cursor: pointer;
 
     &:hover {

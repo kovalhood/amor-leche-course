@@ -119,7 +119,7 @@
             Lecciones de video detalladas y apoyo en línea constante de
             instructores
           </p>
-          <button class="button__register">¡Inscríbete al curso ahora!</button>
+          <a href="#courses" class="button__register button__link link">¡Inscríbete al curso ahora!</a>
 
           <!-- Decorative elements -->
           <img class="hero__image" src="./images/hero/hero.png" alt="hero" />
@@ -266,11 +266,44 @@
               >más de 25 postres!</span
             ></b
           >
-          <img
-            class="what-you-learn__image"
-            src="./images/what-you-learn/what-you-learn.png"
-            alt="what-you-learn"
-          />
+
+          <div class="what-you-learn__images">
+            <div>
+              <img
+                class="what-you-learn-image"
+                src="./images/what-you-learn/what-you-learn-1.png"
+                alt="what-you-learn-1"
+              />
+            </div>
+            <div>
+              <img
+                class="what-you-learn-image"
+                src="./images/what-you-learn/what-you-learn-2.png"
+                alt="what-you-learn-2"
+              />
+            </div>
+            <div>
+              <img
+                class="what-you-learn-image"
+                src="./images/what-you-learn/what-you-learn-3.png"
+                alt="what-you-learn-3"
+              />
+            </div>
+            <div>
+              <img
+                class="what-you-learn-image"
+                src="./images/what-you-learn/what-you-learn-4.png"
+                alt="what-you-learn-4"
+              />
+            </div>
+            <div>
+              <img
+                class="what-you-learn-image"
+                src="./images/what-you-learn/what-you-learn-5.png"
+                alt="what-you-learn-5"
+              />
+            </div>
+          </div>
           <svg class="what-you-learn-curly-line" aria-label="what-you-learn">
             <use href="./images/icons.svg#info-curly-line"></use>
           </svg>
@@ -608,9 +641,10 @@
         <div class="container container--lessons">
           <ul class="lessons list">
             <li class="lessons__item">
+              <div class="lessons__image-wrapper">
               <img
                 class="lessons__image"
-                src="./images/lessons/lessons-1.png"
+                src="./images/lessons/lessons-1.jpg"
                 alt="lessons-image-1"
               />
               <div class="lessons__info">
@@ -665,7 +699,7 @@
             <li class="lessons__item">
               <img
                 class="lessons__image"
-                src="./images/lessons/lessons-2.png"
+                src="./images/lessons/lessons-2.jpg"
                 alt="lessons-image-2"
               />
               <div class="lessons__info">
@@ -707,7 +741,7 @@
             <li class="lessons__item">
               <img
                 class="lessons__image"
-                src="./images/lessons/lessons-3.png"
+                src="./images/lessons/lessons-3.jpg"
                 alt="lessons-image-3"
               />
               <div class="lessons__info">
@@ -747,7 +781,7 @@
             <li class="lessons__item">
               <img
                 class="lessons__image"
-                src="./images/lessons/lessons-4.png"
+                src="./images/lessons/lessons-4.jpg"
                 alt="lessons-image-4"
               />
               <div class="lessons__info">
@@ -788,7 +822,7 @@
             <li class="lessons__item">
               <img
                 class="lessons__image"
-                src="./images/lessons/lessons-5.png"
+                src="./images/lessons/lessons-5.jpg"
                 alt="lessons-image-5"
               />
               <div class="lessons__info">
@@ -823,7 +857,7 @@
             <li class="lessons__item">
               <img
                 class="lessons__image"
-                src="./images/lessons/lessons-6.png"
+                src="./images/lessons/lessons-6.jpg"
                 alt="lessons-image-6"
               />
               <div class="lessons__info">
@@ -903,9 +937,9 @@
               </div>
             </li>
           </ul>
-          <button class="button__register button__register--lessons">
+          <a href="#courses" class="button__register button__link button__register--lessons link">
             ¡Inscríbete al curso ahora!
-          </button>
+          </a>
 
           <!-- Decorative elements -->
           <svg class="lessons__arrow" aria-label="lessons-arrow">
@@ -1191,7 +1225,7 @@
                     <p class="price--old">$250.000 Clp</p>
                   </div>
                 </div>
-                <button class="button__register button__register--courses">
+                <button class="button__register button__register--courses" data-tf-popup="WDgwJarN" data-tf-opacity="100" data-tf-size="100" data-tf-iframe-props="title=AmorLeche PRO" data-tf-transitive-search-params data-tf-medium="snippet">
                   ¡Inscríbete al curso ahora!
                 </button>
 
@@ -1408,7 +1442,7 @@
                     <p class="price--old">$200.000 Clp</p>
                   </div>
                 </div>
-                <button class="button__register button__register--courses">
+                <button class="button__register button__register--courses" data-tf-popup="BZtSjJ3s" data-tf-opacity="100" data-tf-size="100" data-tf-iframe-props="title=AmorLeche MINI" data-tf-transitive-search-params data-tf-medium="snippet">
                   ¡Inscríbete al curso ahora!
                 </button>
 
@@ -1505,7 +1539,9 @@
                   te dirá qué hacer si la masa es demasiado espesa. En el curso,
                   tendrás un tutor justo al lado tuyo, hombro a hombro, mientras
                   preparas el postre. Te ayudará, guiará, apoyará y
-                  tranquilizará. No tendrás que elegir entre un millón de
+                  tranquilizará.
+                  <br/> <br/>
+                  No tendrás que elegir entre un millón de
                   opciones: hemos seleccionado para ti las recetas más
                   populares, las hemos probado por nuestra cuenta y las hemos
                   trabajado a fondo.
@@ -1518,14 +1554,13 @@
               </h2>
               <div class="faq-answer hidden">
                 <p>
-                  En YouTube nadie vendrá a ayudarte en momentos difíciles y no
-                  te dirá qué hacer si la masa es demasiado espesa. En el curso,
-                  tendrás un tutor justo al lado tuyo, hombro a hombro, mientras
-                  preparas el postre. Te ayudará, guiará, apoyará y
-                  tranquilizará. No tendrás que elegir entre un millón de
-                  opciones: hemos seleccionado para ti las recetas más
-                  populares, las hemos probado por nuestra cuenta y las hemos
-                  trabajado a fondo.
+                  Al aprender en línea, cocinas en tu propia cocina, con tus propias herramientas y con los ingredientes que elegiste por su calidad y precio.
+                  <br/><br/>
+                  Podrás ver todos los detalles de la preparación "en primera fila", y si no entendiste algo o lo olvidaste, puedes volver a ver el video tantas veces como quieras durante 6 meses más.
+                  <br/><br/>
+                  Tendrás tutores que responderán todas tus preguntas en el momento en que las tengas, no solo durante la clase.
+                  <br/><br/>
+                  Ahorras mucho tiempo y energía porque no tienes que ir a ningún lado: todo sucede en tu casa y en el momento que te sea conveniente.
                 </p>
               </div>
             </li>
@@ -1535,14 +1570,19 @@
               </h2>
               <div class="faq-answer hidden">
                 <p>
-                  En YouTube nadie vendrá a ayudarte en momentos difíciles y no
-                  te dirá qué hacer si la masa es demasiado espesa. En el curso,
-                  tendrás un tutor justo al lado tuyo, hombro a hombro, mientras
-                  preparas el postre. Te ayudará, guiará, apoyará y
-                  tranquilizará. No tendrás que elegir entre un millón de
-                  opciones: hemos seleccionado para ti las recetas más
-                  populares, las hemos probado por nuestra cuenta y las hemos
-                  trabajado a fondo.
+                  Solo necesitarás muy poco:
+                  <br/><br/>
+                  <ul>
+                    <li>Horno y bandeja para hornear</li>
+                    <li>Cuchillo largo con "dientes" o simplemente grande</li>
+                    <li>Tazón profundo para batir</li>
+                    <li>Batidora eléctrica con una potencia de 500 vatios</li>
+                    <li>Batidor y espátula de silicona</li>
+                    <li>Anillo redondo para hornear bizcocho, de 16-18 cm de diámetro</li>
+                    <li>Bolsa y boquilla de repostería</li>
+                  </ul>
+                  <br/>
+                  No se preocupe si algo no está claro en este momento: antes de comenzar las clases, recibirá una lección en video donde le mostraré todo y explicaré detalladamente. Te diré qué puedes prescindir y qué necesitas obligatoriamente.
                 </p>
               </div>
             </li>
@@ -1552,14 +1592,10 @@
               </h2>
               <div class="faq-answer hidden">
                 <p>
-                  En YouTube nadie vendrá a ayudarte en momentos difíciles y no
-                  te dirá qué hacer si la masa es demasiado espesa. En el curso,
-                  tendrás un tutor justo al lado tuyo, hombro a hombro, mientras
-                  preparas el postre. Te ayudará, guiará, apoyará y
-                  tranquilizará. No tendrás que elegir entre un millón de
-                  opciones: hemos seleccionado para ti las recetas más
-                  populares, las hemos probado por nuestra cuenta y las hemos
-                  trabajado a fondo.
+                  Puede reservar su lugar en el curso ahora - al precio más ventajoso con todos los descuentos - y comenzar a estudiar más tarde. Juntos encontraremos el comienzo de flujo más conveniente para usted.
+<br/><br/>
+Si los planes cambian antes del inicio del curso, le devolveremos el pago inicial sin hacer preguntas. Por lo tanto, no tiene nada que perder.
+
                 </p>
               </div>
             </li>
@@ -1570,14 +1606,10 @@
               </h2>
               <div class="faq-answer hidden">
                 <p>
-                  En YouTube nadie vendrá a ayudarte en momentos difíciles y no
-                  te dirá qué hacer si la masa es demasiado espesa. En el curso,
-                  tendrás un tutor justo al lado tuyo, hombro a hombro, mientras
-                  preparas el postre. Te ayudará, guiará, apoyará y
-                  tranquilizará. No tendrás que elegir entre un millón de
-                  opciones: hemos seleccionado para ti las recetas más
-                  populares, las hemos probado por nuestra cuenta y las hemos
-                  trabajado a fondo.
+                  ¡No te preocupes por eso! Muchas alumnas son de pequeñas ciudades :)
+                  <br/><br/>
+                  Si algo necesario no está disponible, todo se puede pedir en línea, y yo te diré dónde. La entrega suele tardar alrededor de dos semanas, por lo que encontraremos una fecha de inicio del curso para que todo lo necesario ya esté contigo. Nuestras queridas alumnas hacen esto todo el tiempo :) Además, no todos los ingredientes son necesarios al comienzo del curso.
+
                 </p>
               </div>
             </li>
@@ -1588,14 +1620,10 @@
               </h2>
               <div class="faq-answer hidden">
                 <p>
-                  En YouTube nadie vendrá a ayudarte en momentos difíciles y no
-                  te dirá qué hacer si la masa es demasiado espesa. En el curso,
-                  tendrás un tutor justo al lado tuyo, hombro a hombro, mientras
-                  preparas el postre. Te ayudará, guiará, apoyará y
-                  tranquilizará. No tendrás que elegir entre un millón de
-                  opciones: hemos seleccionado para ti las recetas más
-                  populares, las hemos probado por nuestra cuenta y las hemos
-                  trabajado a fondo.
+                  ¡Por supuesto que sí! Al menos es un nuevo y emocionante pasatiempo y su propia isla creativa, donde puede desconectarse de las preocupaciones diarias y hacer lo que le gusta.
+                  <br/><br/>
+                  Descubrirás nuevas habilidades en ti que antes no sabías que tenías. Y quién sabe, tal vez tu pasión se convierta en un trabajo rentable y amado.
+
                 </p>
               </div>
             </li>
@@ -1606,31 +1634,23 @@
               </h2>
               <div class="faq-answer hidden">
                 <p>
-                  En YouTube nadie vendrá a ayudarte en momentos difíciles y no
-                  te dirá qué hacer si la masa es demasiado espesa. En el curso,
-                  tendrás un tutor justo al lado tuyo, hombro a hombro, mientras
-                  preparas el postre. Te ayudará, guiará, apoyará y
-                  tranquilizará. No tendrás que elegir entre un millón de
-                  opciones: hemos seleccionado para ti las recetas más
-                  populares, las hemos probado por nuestra cuenta y las hemos
-                  trabajado a fondo.
+                  Comprobado por nuestras alumnas en la práctica, ¡tu esposo te llevará en brazos cuando pruebe tus creaciones culinarias y te pedirá nuevos platos para probar! :)
+                  <br/><br/>
+                  Todas las recetas están perfeccionadas hasta la perfección, el material está explicado de manera muy sencilla y los tutores siempre están dispuestos a ayudar con cualquier duda: simplemente no puede salir mal. :)
+
                 </p>
               </div>
             </li>
             <li class="faq-container">
               <h2 class="faq-question">
-                ¿En qué es mejor que las lecciones de YouTube?
+                Nunca he tomado un curso en línea antes, no sé cómo funciona.
               </h2>
               <div class="faq-answer hidden">
                 <p>
-                  En YouTube nadie vendrá a ayudarte en momentos difíciles y no
-                  te dirá qué hacer si la masa es demasiado espesa. En el curso,
-                  tendrás un tutor justo al lado tuyo, hombro a hombro, mientras
-                  preparas el postre. Te ayudará, guiará, apoyará y
-                  tranquilizará. No tendrás que elegir entre un millón de
-                  opciones: hemos seleccionado para ti las recetas más
-                  populares, las hemos probado por nuestra cuenta y las hemos
-                  trabajado a fondo.
+                  Antes de comenzar el curso, recibirá una lección en video donde le mostraré cómo usar el grupo de Facebook donde se llevarán a cabo las clases.
+                  <br/><br/>
+                  Todo es muy fácil y lo entenderás en 5 minutos :)
+
                 </p>
               </div>
             </li>
@@ -1643,12 +1663,16 @@
           <h2 class="section__title section__title--contacts">
             ¿Tienes alguna pregunta más? ¡Escríbeme!
           </h2>
-          <button class="button__register button__register--contacts">
+          <a
+            href="http://wa.me/56952125658"
+            target="_blank"
+            class="button__register button__register--contacts link"
+          >
             Envíame un mensaje de WhatsApp
             <svg class="contacts__whatsapp" aria-label="whatsapp">
               <use href="./images/icons.svg#whatsapp"></use>
             </svg>
-          </button>
+          </a>
         </div>
       </section>
     </main>
@@ -1679,6 +1703,9 @@
       </div>
     </footer>
 
+    <!-- Typefor scripts -->
+    <script src="//embed.typeform.com/next/embed.js"></script>
+
     <!-- Mobile menu -->
     <script src="./js/mobile-menu.js"></script>
 
@@ -1692,6 +1719,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
     <script src="./js/info-slick-script.js"></script>
+    <script src="./js/what-you-learn-slick.js"></script>
     <script src="./js/gallery-slick-script.js"></script>
     <script src="./js/lessons-slick-script.js"></script>
     <script src="./js/reviews-slick-script.js"></script>

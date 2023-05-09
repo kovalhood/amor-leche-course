@@ -33,6 +33,17 @@
     }
 }
 
+.lessons__image{
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+    height: 248px;
+    object-fit: cover;
+
+    @media screen and (min-width: $tablet) {
+        height: 348px;
+    }
+}
+
 .lessons__info{
     padding: 20px;
 }
@@ -122,7 +133,7 @@
 
     @media screen and (min-width: $desktop) {
         bottom: -10px;
-        left: 330px;
+        left: 236px;
         width: 145.28px;
         height: 99.07px;
         transform: rotate(-5deg);
@@ -148,7 +159,7 @@
 }
 
 .container--lessons .slick-prev {
-    left: 120px;
+    left: 44px;
     cursor: pointer;
 
     &:hover {
@@ -158,7 +169,7 @@
 }
 
 .container--lessons .slick-next {
-    left: 200px;
+    left: 124px;
     cursor: pointer;
 
     &:hover {

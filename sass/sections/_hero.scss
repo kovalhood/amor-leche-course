@@ -45,6 +45,7 @@
     line-height: 39px;
     color: $accent-color;
     margin-bottom: 10px;
+    z-index: 100;
 
     @media screen and (min-width: $tablet) {
         font-size: 50px;
@@ -53,7 +54,7 @@
     }
     
     @media screen and (min-width: $desktop) {
-        font-size: 90px;
+        font-size: 70px;
         line-height: 110px;
         margin-bottom: 20px;
     }
@@ -134,7 +135,7 @@
         width: 696px;
         height: 850px;
         bottom: -152px;
-        right: 0;
+        right: -90px;
         display: block;
     }
 }
@@ -216,4 +217,8 @@
         width: 32px;
         height: 33px;
     }
+}
+
+.button__link{
+    width: 320px;
 }
