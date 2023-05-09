@@ -15,7 +15,7 @@ jQuery(function () {
                 }
             },
             {
-                breakpoint: 1440,
+                breakpoint: 1280,
                 settings: {
                     arrows: false,
                     dots: true,
