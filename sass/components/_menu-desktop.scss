@@ -19,11 +19,12 @@
 
 .menu-desktop__link{
     padding: 20px 0;
+    font-size: 20px;
+    line-height: 23px;
     cursor: pointer;
     transition: $main-transition;
 
-    &:hover,
-    &:focus{
+    &:hover{
         color: $accent-color;
     }
 }

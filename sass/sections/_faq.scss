@@ -22,8 +22,9 @@
     font-weight: 700;
     font-size: 18px;
     line-height: 21px;
-
     border-bottom: 2px solid #F56F70;
+
+    cursor: pointer;
 
     @media screen and (min-width: $tablet) {
         font-size: 23px;
@@ -70,6 +71,8 @@
     background-color: $accent-color;
     color: $white-color;
     content: "?";
+
+    cursor: pointer;
 
     @media screen and (min-width: $tablet) {
         width: 58px;
