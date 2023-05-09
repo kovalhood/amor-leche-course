@@ -61,7 +61,7 @@ address {
   padding-bottom: 60px;
   overflow: hidden;
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .section {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -84,7 +84,7 @@ address {
     line-height: 49px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .section__title {
     font-size: 70px;
     line-height: 85px;
@@ -109,9 +109,9 @@ address {
     padding-right: 70px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .container {
-    width: 1200px;
+    width: 1280px;
     padding-left: 40px;
     padding-right: 40px;
   }
@@ -138,7 +138,7 @@ address {
     height: 65px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .logo__icon {
     width: 119px;
     height: 84.27px;
@@ -182,7 +182,7 @@ address {
 .menu-desktop__wrapper {
   display: none;
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .menu-desktop__wrapper {
     display: block;
   }
@@ -211,7 +211,7 @@ address {
   color: #F56F70;
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .menu-mobile__wrapper {
     display: none;
   }
@@ -231,7 +231,7 @@ address {
   cursor: pointer;
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .menu-mobile__button--open {
     display: none;
   }
@@ -331,7 +331,7 @@ address {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .container--header {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -366,7 +366,7 @@ address {
     height: 103px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .logo__container {
     padding-top: 15px;
     width: 145px;
@@ -385,7 +385,7 @@ address {
     height: 60.52px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .logo__icon {
     width: 107.12px;
     height: 70.51px;
@@ -404,7 +404,7 @@ address {
     padding-bottom: 330px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .hero {
     overflow: unset;
     padding-top: 106px;
@@ -428,7 +428,7 @@ address {
     line-height: 35px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .hero__bold {
     font-size: 40px;
     line-height: 47px;
@@ -451,7 +451,7 @@ address {
     margin-bottom: 30px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .hero__title {
     font-size: 90px;
     line-height: 110px;
@@ -471,7 +471,7 @@ address {
     width: 590px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .hero__text {
     font-size: 20px;
     line-height: 23px;
@@ -492,7 +492,7 @@ address {
     line-height: 27px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .hero__subheading {
     font-size: 25px;
     line-height: 29px;
@@ -503,7 +503,7 @@ address {
 .hero__text--second {
   margin-bottom: 30px;
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .hero__text--second {
     margin-bottom: 40px;
     width: 590px;
@@ -529,7 +529,7 @@ address {
     bottom: -330px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .hero__image {
     display: none;
   }
@@ -538,7 +538,7 @@ address {
 .hero__image--desktop {
   display: none;
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .hero__image--desktop {
     width: 696px;
     height: 850px;
@@ -552,7 +552,7 @@ address {
 .hero-line--right {
   position: absolute;
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .hero-line--left,
   .hero-line--right {
     display: none;
@@ -601,7 +601,7 @@ address {
     right: 295px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .hero-underline {
     width: 256px;
     height: 28px;
@@ -626,7 +626,7 @@ address {
     height: 13.36px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .hero-title--symbol {
     top: 1px;
     left: 387.8px;
@@ -646,7 +646,7 @@ address {
     padding-bottom: 110px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .section--info {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -665,7 +665,7 @@ address {
     margin-bottom: 20px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .info__subtitle {
     font-size: 20px;
     line-height: 23px;
@@ -719,7 +719,7 @@ address {
     width: unset;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .info__item {
     -ms-flex-preferred-size: calc(33.3333333333% - 24px);
         flex-basis: calc(33.3333333333% - 24px);
@@ -739,7 +739,7 @@ address {
     line-height: 21px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .info__text {
     font-size: 20px;
     line-height: 23px;
@@ -815,7 +815,7 @@ address {
     height: 80.12px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .info-arrow {
     top: 72px;
     left: 30px;
@@ -837,7 +837,7 @@ address {
     height: 198px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .info-curly-line {
     bottom: -144px;
     right: 69px;
@@ -848,7 +848,7 @@ address {
 .slick-list {
   margin-bottom: 24px;
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .slick-list {
     margin-bottom: 0;
   }
@@ -949,7 +949,7 @@ ul.slick-dots {
     padding-bottom: 158px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .section--what-you-learn {
     padding-top: 60px;
     padding-bottom: 178px;
@@ -974,7 +974,7 @@ ul.slick-dots {
     width: 545px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .what-you-learn__subheading {
     font-size: 25px;
     line-height: 29px;
@@ -996,7 +996,7 @@ ul.slick-dots {
     width: 350px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .what-you-learn__text {
     font-size: 20px;
     line-height: 23px;
@@ -1025,7 +1025,7 @@ ul.slick-dots {
     height: 461px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .what-you-learn__image {
     bottom: -50px;
     right: -100px;
@@ -1064,7 +1064,7 @@ ul.slick-dots {
     height: 280px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .section--about::before {
     height: 290px;
   }
@@ -1081,7 +1081,7 @@ ul.slick-dots {
     padding: 90px 40px 98px 40px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .about--wrapper {
     padding: 90px 40px 105px 40px;
   }
@@ -1090,7 +1090,7 @@ ul.slick-dots {
 .section__title--about {
   position: relative;
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .section__title--about {
     margin-bottom: 40px;
   }
@@ -1110,7 +1110,7 @@ ul.slick-dots {
     height: 21.89px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .about-underline {
     left: 25px;
     width: 279px;
@@ -1146,7 +1146,7 @@ ul.slick-dots {
     width: 350px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .about__text {
     font-size: 20px;
     line-height: 23px;
@@ -1167,7 +1167,7 @@ ul.slick-dots {
     height: 349px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .about__image {
     width: 384px;
     height: 526px;
@@ -1190,7 +1190,7 @@ ul.slick-dots {
     right: 230px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .about__highlight {
     width: 126px;
     height: 126px;
@@ -1208,7 +1208,7 @@ ul.slick-dots {
     padding: 110px 0;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .section--gallery {
     padding: 120px 0;
   }
@@ -1221,7 +1221,7 @@ ul.slick-dots {
 .gallery-desktop__wrapper {
   display: none;
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .gallery-desktop__wrapper {
     display: block;
   }
@@ -1339,7 +1339,7 @@ ul.slick-dots {
   font-size: 30px;
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .gallery-mobile__wrapper {
     display: none;
   }
@@ -1360,7 +1360,7 @@ ul.slick-dots {
 .slick-list {
   margin-bottom: 24px;
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .slick-list {
     margin-bottom: 0;
   }
@@ -1465,7 +1465,7 @@ ul.slick-dots {
             transform: rotate(-15deg);
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .gallery__highlight {
     bottom: -123px;
     left: -90px;
@@ -1482,7 +1482,7 @@ ul.slick-dots {
     padding: 110px 0;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .section--program {
     padding: 120px 0;
   }
@@ -1513,7 +1513,7 @@ ul.slick-dots {
     width: 370px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .program__text {
     font-size: 25px;
     line-height: 29px;
@@ -1536,7 +1536,7 @@ ul.slick-dots {
     height: 166px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .program__image {
     width: 195px;
     height: 195px;
@@ -1552,7 +1552,7 @@ ul.slick-dots {
     right: 100px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .program__image--1 {
     right: 180px;
   }
@@ -1567,7 +1567,7 @@ ul.slick-dots {
     right: -90px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .program__image--2 {
     right: -50px;
   }
@@ -1582,7 +1582,7 @@ ul.slick-dots {
     right: 120px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .program__image--3 {
     bottom: -10px;
     right: 245px;
@@ -1598,7 +1598,7 @@ ul.slick-dots {
     right: -70px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .program__image--4 {
     bottom: 20px;
     right: 10px;
@@ -1614,7 +1614,7 @@ ul.slick-dots {
     right: 150px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .program__image--5 {
     bottom: -220px;
     right: 310px;
@@ -1630,7 +1630,7 @@ ul.slick-dots {
     right: -44px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .program__image--6 {
     bottom: -190px;
     right: 70px;
@@ -1646,7 +1646,7 @@ ul.slick-dots {
     padding: 110px 0;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .section--lessons {
     padding: 120px 0;
   }
@@ -1670,7 +1670,7 @@ ul.slick-dots {
     margin-right: 30px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .lessons__item {
     height: 770px;
   }
@@ -1694,7 +1694,7 @@ ul.slick-dots {
     line-height: 30px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .lessons__title {
     font-size: 30px;
     line-height: 37px;
@@ -1715,7 +1715,7 @@ ul.slick-dots {
     line-height: 27px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .lessons__subheading {
     font-size: 25px;
     line-height: 29px;
@@ -1747,7 +1747,7 @@ ul.slick-dots {
     width: 344px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .lessons-description__text {
     font-size: 20px;
     line-height: 23px;
@@ -1773,7 +1773,7 @@ ul.slick-dots {
     height: 84.51px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .lessons__arrow {
     bottom: -10px;
     left: 330px;
@@ -1847,7 +1847,7 @@ ul.slick-dots {
 .slick-list {
   margin-bottom: 24px;
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .slick-list {
     margin-bottom: 0;
   }
@@ -1947,7 +1947,7 @@ ul.slick-dots {
     padding: 110px 0;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .section--reviews {
     padding: 120px 0;
   }
@@ -1960,7 +1960,7 @@ ul.slick-dots {
 .reviews-desktop__wrapper {
   display: none;
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .reviews-desktop__wrapper {
     position: relative;
     display: -webkit-box;
@@ -2022,7 +2022,7 @@ ul.slick-dots {
   position: relative;
   z-index: 40;
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .reviews-mobile__wrapper {
     display: none;
   }
@@ -2111,7 +2111,7 @@ ul.slick-dots {
     height: 81.68px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .reviews__highlight {
     top: -100px;
     right: -30px;
@@ -2133,7 +2133,7 @@ ul.slick-dots {
     z-index: 20;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .reviews__circle {
     bottom: -40px;
     left: 20px;
@@ -2160,7 +2160,7 @@ ul.slick-dots {
     height: 990px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .section--courses::before {
     height: 760px;
   }
@@ -2188,7 +2188,7 @@ ul.slick-dots {
     padding-bottom: 60px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .section__title--courses {
     width: 850px;
     padding-bottom: 30px;
@@ -2217,7 +2217,7 @@ ul.slick-dots {
     padding: 90px 30px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .courses__wrapper {
     padding: 90px 39px;
   }
@@ -2232,7 +2232,7 @@ ul.slick-dots {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .courses {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -2276,7 +2276,7 @@ ul.slick-dots {
             transform: rotate(-6.03deg);
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .courses__best-offer {
     font-size: 20px;
     line-height: 23px;
@@ -2292,12 +2292,12 @@ ul.slick-dots {
   padding: 30px 20px;
   border-radius: 20px;
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .courses__item {
     padding: 30px 30px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .courses__item {
     padding: 40px 40px;
   }
@@ -2305,7 +2305,7 @@ ul.slick-dots {
 .courses__item:not(:last-child) {
   margin-bottom: 30px;
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .courses__item:not(:last-child) {
     margin-bottom: 0;
     margin-right: 20px;
@@ -2327,7 +2327,7 @@ ul.slick-dots {
     line-height: 30px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .courses__title {
     font-size: 30px;
     line-height: 37px;
@@ -2366,7 +2366,7 @@ ul.slick-dots {
     margin-bottom: 0;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .courses-program {
     height: unset;
     margin-bottom: 20px;
@@ -2395,7 +2395,7 @@ ul.slick-dots {
     line-height: 21px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .courses-program__text {
     font-size: 20px;
     line-height: 23px;
@@ -2423,7 +2423,7 @@ ul.slick-dots {
     line-height: 21px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .courses-description__text {
     font-size: 20px;
     line-height: 23px;
@@ -2441,7 +2441,7 @@ ul.slick-dots {
     margin-bottom: 30px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .courses-gift {
     margin-bottom: 44px;
   }
@@ -2469,7 +2469,7 @@ ul.slick-dots {
     line-height: 21px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .courses-gift__text {
     font-size: 20px;
     line-height: 23px;
@@ -2529,7 +2529,7 @@ ul.slick-dots {
     line-height: 23px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .price__text {
     font-size: 23px;
     line-height: 27px;
@@ -2559,7 +2559,7 @@ ul.slick-dots {
     margin-right: 15px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .price--new {
     font-size: 25px;
     line-height: 30px;
@@ -2578,7 +2578,7 @@ ul.slick-dots {
     line-height: 21px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .price--old {
     font-size: 20px;
     line-height: 23px;
@@ -2604,7 +2604,7 @@ ul.slick-dots {
     height: 178.49px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .courses__book {
     bottom: 180px;
     width: 126.38px;
@@ -2630,7 +2630,7 @@ ul.slick-dots {
     height: 96.84px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .courses__video {
     right: 35px;
     bottom: 160px;
@@ -2652,7 +2652,7 @@ ul.slick-dots {
     height: 71.33px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .courses__arrow {
     bottom: 65px;
     right: 40px;
@@ -2672,7 +2672,7 @@ ul.slick-dots {
     height: 210px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .courses__highlight {
     bottom: 580px;
     left: -33px;
@@ -2720,7 +2720,7 @@ ul.slick-dots {
     margin-bottom: 30px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .timer__subheading {
     font-size: 25px;
     line-height: 29px;
@@ -2742,7 +2742,7 @@ ul.slick-dots {
     line-height: 35px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .timer__heading {
     font-size: 40px;
     line-height: 47px;
@@ -2781,7 +2781,7 @@ ul.slick-dots {
     margin-right: 30px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .container--timer .field:not(:last-child) {
     margin-right: 40px;
   }
@@ -2820,7 +2820,7 @@ ul.slick-dots {
     border-radius: 6px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .container--timer .value {
     font-size: 50px;
     line-height: 58px;
@@ -2843,7 +2843,7 @@ ul.slick-dots {
     line-height: 27px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .container--timer .label {
     font-size: 23px;
     line-height: 27px;
@@ -2859,7 +2859,7 @@ ul.slick-dots {
     padding: 110px 0 75px 0;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .section--faq {
     padding: 120px 0 80px 0;
   }
@@ -2972,7 +2972,7 @@ ul.slick-dots {
     margin-top: -20px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .faq-answer {
     font-size: 20px;
     line-height: 23px;
@@ -3013,7 +3013,7 @@ ul.slick-dots {
     line-height: 49px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .section__title--contacts {
     width: unset;
     font-size: 50px;
@@ -3069,7 +3069,7 @@ ul.slick-dots {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .container--footer {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -3102,7 +3102,7 @@ ul.slick-dots {
     height: 103px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .logo__container--footer {
     padding-top: 15px;
     width: 145px;
@@ -3117,7 +3117,7 @@ ul.slick-dots {
 .menu-footer {
   display: none;
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .menu-footer {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -3152,7 +3152,7 @@ ul.slick-dots {
     line-height: 22px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .footer__copyright {
     font-size: 20px;
     line-height: 24px;
