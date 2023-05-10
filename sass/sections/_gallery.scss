@@ -29,6 +29,34 @@
     margin-right: 22px;
 }
 
+.gallery__image{
+    @media screen and (min-width: $desktop) {
+        object-fit: cover;
+        transition: all .3s;
+        vertical-align: top;
+
+        &:hover{
+            scale: 1.1;
+        }
+    }
+
+}
+
+.gallery__image--1,
+.gallery__image--2,
+.gallery__image--3,
+.gallery__image--4,
+.gallery__image--5,
+.gallery__image--6,
+.gallery__image--7,
+.gallery__image--8,
+.gallery__image--9,
+.gallery__image--10,
+.gallery__image--11,
+.gallery__image--12 {
+    overflow: hidden;
+}
+
 .gallery--two-img{
     display: flex;
     margin-bottom: 22px;

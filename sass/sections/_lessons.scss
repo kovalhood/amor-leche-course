@@ -39,6 +39,25 @@
 
     @media screen and (min-width: $desktop) {
         height: 770px;
+        overflow: hidden;
+    }
+
+    &:hover .lessons__image{
+        @media screen and (min-width: $desktop) {
+            scale: 1.1;
+        }
+    }
+
+    &:hover .about__bullet {
+        @media screen and (min-width: $desktop) {
+            scale: 1.2;
+        }
+    }
+}
+
+.about__bullet{
+    @media screen and (min-width: $desktop) {
+        transition: $main-transition;
     }
 }
 
@@ -46,7 +65,8 @@
     width: 100%;
     border-radius: 20px 20px 0 0;
     height: 248px;
-    object-fit: cover;
+    object-fit: cover; 
+    transition: $main-transition;
 
     @media screen and (min-width: $tablet) {
         height: 348px;
@@ -55,6 +75,13 @@
 
 .lessons__info{
     padding: 20px 20px 30px 20px;
+
+    @media screen and (min-width: $desktop) {
+        position: relative;
+        background-color: #F2F2F2;
+        overflow: hidden;
+        z-index: 20;
+    }
 }
 
 .lessons__title{

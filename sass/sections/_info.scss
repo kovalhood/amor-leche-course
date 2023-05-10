@@ -58,6 +58,7 @@
     width: 315px;
     border-radius: 20px;
     background-color: $white-color;
+    overflow: hidden;
 
     @media screen and (min-width: $tablet) {
         margin-left: 24px;
@@ -70,13 +71,30 @@
         flex-basis: calc(100% / 3 - 24px);
         padding: 20px 50px 20px 50px;
     }
+
+    transition: $main-transition;
+
+    &:hover .info__image{
+        @media screen and (min-width: $desktop) {
+                bottom: 0;
+            }
+    }
+
+    &:hover .info__text {
+        @media screen and (min-width: $desktop) {
+            scale: 1.1;
+        }
+    }
 }
 
 .info__text{
     text-align: center;
     font-weight: 700;
     font-size: 16px;
-    line-height: 19px; 
+    line-height: 19px;
+    cursor: default;
+
+    transition: $main-transition;
 
     @media screen and (min-width: $tablet) {
         font-size: 18px;
@@ -96,6 +114,12 @@
 .info__image{
     position: absolute;
     bottom: 0;
+
+    transition: $main-transition;
+
+    @media screen and (min-width: $desktop) {
+        bottom: -100%;
+    }
 
     &--1{
         width: 140px;

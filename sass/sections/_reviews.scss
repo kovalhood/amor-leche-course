@@ -35,9 +35,26 @@
     }
 }
 
+.reviews__image{
+    transition: $main-transition;
+}
+
 .reviews--two-img {
     display: flex;
     margin-bottom: 22px;
+}
+
+.reviews__image--1,
+.reviews__image--2,
+.reviews__image--3,
+.reviews__image--4,
+.reviews__image--5,
+.reviews__image--6{
+    overflow: hidden;
+
+    &:hover .reviews__image {
+        scale: 1.1;
+    }
 }
 
 .reviews__image--1,

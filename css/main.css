@@ -544,7 +544,7 @@ address {
     width: 696px;
     height: 850px;
     bottom: -152px;
-    right: -90px;
+    right: -70px;
     display: block;
   }
 }
@@ -714,6 +714,9 @@ address {
   width: 315px;
   border-radius: 20px;
   background-color: #ffffff;
+  overflow: hidden;
+  -webkit-transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 @media screen and (min-width: 786px) {
   .info__item {
@@ -731,12 +734,25 @@ address {
     padding: 20px 50px 20px 50px;
   }
 }
+@media screen and (min-width: 1280px) {
+  .info__item:hover .info__image {
+    bottom: 0;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .info__item:hover .info__text {
+    scale: 1.1;
+  }
+}
 
 .info__text {
   text-align: center;
   font-weight: 700;
   font-size: 16px;
   line-height: 19px;
+  cursor: default;
+  -webkit-transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 @media screen and (min-width: 786px) {
   .info__text {
@@ -758,6 +774,13 @@ address {
 .info__image {
   position: absolute;
   bottom: 0;
+  -webkit-transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+@media screen and (min-width: 1280px) {
+  .info__image {
+    bottom: -100%;
+  }
 }
 .info__image--1 {
   width: 140px;
@@ -1243,6 +1266,34 @@ ul.slick-dots {
   margin-right: 22px;
 }
 
+@media screen and (min-width: 1280px) {
+  .gallery__image {
+    -o-object-fit: cover;
+       object-fit: cover;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    vertical-align: top;
+  }
+  .gallery__image:hover {
+    scale: 1.1;
+  }
+}
+
+.gallery__image--1,
+.gallery__image--2,
+.gallery__image--3,
+.gallery__image--4,
+.gallery__image--5,
+.gallery__image--6,
+.gallery__image--7,
+.gallery__image--8,
+.gallery__image--9,
+.gallery__image--10,
+.gallery__image--11,
+.gallery__image--12 {
+  overflow: hidden;
+}
+
 .gallery--two-img {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1687,6 +1738,24 @@ ul.slick-dots {
 @media screen and (min-width: 1280px) {
   .lessons__item {
     height: 770px;
+    overflow: hidden;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .lessons__item:hover .lessons__image {
+    scale: 1.1;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .lessons__item:hover .about__bullet {
+    scale: 1.2;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .about__bullet {
+    -webkit-transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
 
@@ -1696,6 +1765,8 @@ ul.slick-dots {
   height: 248px;
   -o-object-fit: cover;
      object-fit: cover;
+  -webkit-transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 @media screen and (min-width: 786px) {
   .lessons__image {
@@ -1705,6 +1776,14 @@ ul.slick-dots {
 
 .lessons__info {
   padding: 20px 20px 30px 20px;
+}
+@media screen and (min-width: 1280px) {
+  .lessons__info {
+    position: relative;
+    background-color: #F2F2F2;
+    overflow: hidden;
+    z-index: 20;
+  }
 }
 
 .lessons__title {
@@ -2013,11 +2092,33 @@ ul.slick-dots {
   margin-right: 22px;
 }
 
+.reviews__image {
+  -webkit-transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .reviews--two-img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-bottom: 22px;
+}
+
+.reviews__image--1,
+.reviews__image--2,
+.reviews__image--3,
+.reviews__image--4,
+.reviews__image--5,
+.reviews__image--6 {
+  overflow: hidden;
+}
+.reviews__image--1:hover .reviews__image,
+.reviews__image--2:hover .reviews__image,
+.reviews__image--3:hover .reviews__image,
+.reviews__image--4:hover .reviews__image,
+.reviews__image--5:hover .reviews__image,
+.reviews__image--6:hover .reviews__image {
+  scale: 1.1;
 }
 
 .reviews__image--1,
