@@ -3060,6 +3060,8 @@ ul.slick-dots {
   color: #ffffff;
   content: "?";
   cursor: pointer;
+  -webkit-transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 @media screen and (min-width: 786px) {
   .faq-question:after {
@@ -3091,6 +3093,8 @@ ul.slick-dots {
   border-bottom: 2px solid #F56F70;
   font-size: 16px;
   line-height: 19px;
+  -webkit-transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 @media screen and (min-width: 786px) {
   .faq-answer {
@@ -3227,7 +3231,7 @@ ul.slick-dots {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-bottom: -20px;
+  margin-bottom: -22px;
   padding-top: 12px;
   width: 115.46px;
   height: 95.55px;

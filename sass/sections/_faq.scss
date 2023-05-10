@@ -74,6 +74,8 @@
 
     cursor: pointer;
 
+    transition: $main-transition;
+
     @media screen and (min-width: $tablet) {
         width: 58px;
         height: 58px;
@@ -103,6 +105,7 @@
 
     font-size: 16px;
     line-height: 19px;
+    transition: $main-transition;
 
     @media screen and (min-width: $tablet) {
         font-size: 18px;
