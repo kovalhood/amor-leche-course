@@ -8,14 +8,11 @@ jQuery(function () {
         responsive: [
             {
                 breakpoint: 786,
-                settings: {
-                    arrows: false,
-                    dots: true,
-                    slidesToShow: 1,
-                }
+                settings: 'unslick'
             },
             {
                 breakpoint: 1280,
+                settings: 'slick',
                 settings: {
                     arrows: false,
                     dots: true,

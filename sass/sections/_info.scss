@@ -34,12 +34,13 @@
 
 .info {
     position: relative;
-    margin-top: -24px;
+    // margin-top: -24px;
     z-index: 100;
 
     @media screen and (min-width: $tablet) {
         display: flex;
         flex-direction: column;
+        margin-top: -24px;
         margin-left: -24px;
         flex-direction: row;
         flex-wrap: wrap;
@@ -51,7 +52,7 @@
     display: flex;
     align-items: center;
     margin-top: 24px;
-    margin-left: 24px;
+    // margin-left: 24px;
     padding: 20px 40px 20px 40px;
     height: 252px;
     width: 315px;
@@ -59,6 +60,7 @@
     background-color: $white-color;
 
     @media screen and (min-width: $tablet) {
+        margin-left: 24px;
         flex-basis: calc(100% / 2 - 24px);
         padding: 20px 30px 20px 30px;
         width: unset;
